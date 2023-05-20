@@ -4,8 +4,8 @@ import s from './currency.module.scss'
 const Currency = () => {
     return (
         <div className={s.container}>
-            <p>Доллар</p>
-            <p>Евро</p>
+            <p>USD 79.9 ₽</p>
+            <p>EURO 86.28 ₽</p>
         </div>
     );
 };

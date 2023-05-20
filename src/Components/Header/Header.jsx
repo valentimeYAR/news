@@ -21,7 +21,9 @@ const Header = () => {
                 </div>
                 <div className={s.info}>
                     <div className={s.logo}>
-                        <Logo/>
+                        <Link to={'/'}>
+                            <Logo/>
+                        </Link>
                     </div>
                     <div className={s.infoBlock}>
                         <div className={s.weather}>
