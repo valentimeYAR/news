@@ -1,0 +1,20 @@
+.container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px 0;
+  max-width: 250px;
+}
+.link{
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1A4480;
+}
+.news{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px 0;
+}
