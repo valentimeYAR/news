@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './rightBlock.module.scss'
 import {Link} from "react-router-dom";
-import {useItems} from "../../store/RightBlock/store.js";
+import {useItems} from "../../store/LeftBlock/store.js";
 import Item from "./Item/Item.jsx";
 
 const LeftBlock = () => {

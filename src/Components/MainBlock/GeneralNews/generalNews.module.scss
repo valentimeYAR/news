@@ -1,18 +1,21 @@
-.container{
+.container {
   max-width: 320px;
   display: flex;
   flex-direction: column;
   gap: 5px 0;
 }
-.imageBlock{
+
+.imageBlock {
   display: flex;
   flex-direction: column;
   gap: 10px 0;
-  img{
+
+  img {
     border-radius: 10px;
   }
 }
-.imageTitle{
+
+.imageTitle {
   font-size: 14px;
   color: #428EE8;
   cursor: pointer;
@@ -21,26 +24,31 @@
     color: #1A4480;
   }
 }
-.title{
+
+.title {
   font-size: 20px;
-  color: #9BA0A6;
+  color: #1A4480;
   font-weight: 600;
   margin-bottom: 10px;
   cursor: pointer;
+
   &:hover {
-    color: #1A4480;
+    color: #9BA0A6;
   }
 }
-.statistics{
+
+.statistics {
   display: flex;
   gap: 0 10px;
 }
-.statisticBlock{
+
+.statisticBlock {
   display: flex;
   gap: 0 10px;
   align-items: center;
 }
-.quantity{
+
+.quantity {
   font-size: 14px;
   color: gray;
   cursor: pointer;
