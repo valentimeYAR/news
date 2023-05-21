@@ -3,6 +3,7 @@ import s from './RightBlock.module.scss'
 import AdBlock from "./AdBlock/AdBlock.jsx";
 import Top from "./Top/Top.jsx";
 import Opinions from "./Opinions/Opinions.jsx";
+import Recommendations from "./Recommendations/Recommendations.jsx";
 
 const RightBlock = () => {
     return (
@@ -11,6 +12,7 @@ const RightBlock = () => {
             <Top/>
             <AdBlock/>
             <Opinions/>
+            <Recommendations/>
         </div>
     );
 };
