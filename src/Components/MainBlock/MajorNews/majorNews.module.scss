@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px 0;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+
+  img {
+    max-width: 666px;
+  }
+}
+
+.imageTitle {
+  font-size: 14px;
+  color: #428EE8;
+  cursor: pointer;
+
+  &:hover {
+    color: #1A4480;
+  }
+}
+
+.title {
+  font-size: 28px;
+  color: #9BA0A6;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+  &:hover {
+    color: #1A4480;
+  }
+}
+
+.textItem {
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.statistics{
+  display: flex;
+  gap: 0 10px;
+}
+.statisticsItem{
+  display: flex;
+  gap: 0 10px;
+  align-items: center;
+}
+.quantity{
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+}
